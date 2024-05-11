@@ -6,7 +6,7 @@ def calcularCalorias(tempo, intensidade):
     return caloriasTotais
 
 # Exemplo de uso
-tempoAtividade = int(input("Digite o tempo de atividade: ")) # em minutos
+tempoAtividade = int(input("Digite o tempo de atividade (em minutos): ")) # em minutos
 intensidadeAtividade = int(input('Digite a intensidade da atividade: ')) # fator de intensidade
 
 caloriasGastas = calcularCalorias(tempoAtividade, intensidadeAtividade)
